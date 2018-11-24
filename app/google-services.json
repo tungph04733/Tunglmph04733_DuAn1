@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1038588302025",
+    "firebase_url": "https://dubaothoitiet-959ea.firebaseio.com",
+    "project_id": "dubaothoitiet-959ea",
+    "storage_bucket": "dubaothoitiet-959ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038588302025:android:fb124b2389b0b6ff",
+        "android_client_info": {
+          "package_name": "com.vbhp.app.duan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038588302025-3c571pq4t789c9u76g1fe6d1qgplt9ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vbhp.app.duan",
+            "certificate_hash": "4d35c84b74a95edb2a2731f16bbdc2d5ac59e29d"
+          }
+        },
+        {
+          "client_id": "1038588302025-f35gggfg9tkfb5pi875c4h6mt2vn633c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVcizneKbBJ9U1McX8tcUjfJlAiEUye-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038588302025-f35gggfg9tkfb5pi875c4h6mt2vn633c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

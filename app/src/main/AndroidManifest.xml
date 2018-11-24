@@ -3,6 +3,7 @@
     package="com.vbhp.app.duan">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -18,8 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".LoginAc" />
+        <activity android:name=".SearchAc" />
+        <activity android:name=".Day7Ac" />
+        <activity android:name=".SignInAc" />
+        <activity android:name=".SignUpAc"></activity>
     </application>
 
 </manifest>

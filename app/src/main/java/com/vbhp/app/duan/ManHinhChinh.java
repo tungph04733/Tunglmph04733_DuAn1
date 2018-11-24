@@ -17,7 +17,7 @@ public class ManHinhChinh extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(ManHinhChinh.this,MainActivity.class);
+                Intent intent = new Intent(ManHinhChinh.this,LoginAc.class);
                 startActivity(intent);
                 finish();
             }

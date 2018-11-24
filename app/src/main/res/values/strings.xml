@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Dự báo thời tiết</string>
+    <string name="slogan">
+Which of us is fearful of our health? If not, please come to us.</string>
+
+
+    <string name="fconformpassworderr">Enter your confompassword</string>
+    <string name="fphoneerr">Enter your phone number</string>
+    <string name="femailerr">Enter your email</string>
+    <string name="fpassworderr">Enter your password</string>
+    <string name="ffirstnameerr">Enter your firstname</string>
+    <string name="flastnameerr">Enter your lastname</string>
 </resources>

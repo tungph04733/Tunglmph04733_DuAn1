@@ -166,6 +166,6 @@
         android:background="@drawable/btn_login"
         android:text="The following days"
         android:textAllCaps="false"
-        android:textColor="#000"
+        android:textColor="#fff"
         android:textSize="20sp" />
 </LinearLayout>
