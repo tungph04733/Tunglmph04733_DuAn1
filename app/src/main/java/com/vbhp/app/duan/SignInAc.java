@@ -32,6 +32,7 @@ public class SignInAc extends AppCompatActivity {
     Button btnSignIn;
     ImageView imgBack;
     TextView tvSignIn;
+    TextView txtSignUn;
     Typeface typeface;
     String sodienthoai = "";
 
@@ -57,10 +58,17 @@ public class SignInAc extends AppCompatActivity {
         AppCompatCheckBox checkbox;
         imgBack = findViewById(R.id.imgbackSignIn);
         tvSignIn = findViewById(R.id.textviewSignIn);
+        txtSignUn = findViewById(R.id.txtSignUp);
         typeface = Typeface.createFromAsset(this.getAssets(), "fonts/Roboto-Regular.ttf");
         tvSignIn.setTypeface(typeface);
 
 
+        txtSignUn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SignInAc.this, SignUpAc.class));
+            }
+        });
         imgBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
