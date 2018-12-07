@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context=".SearchAc">
 
     <android.support.v7.widget.Toolbar
@@ -33,40 +33,44 @@
     <LinearLayout
 
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/search"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edittextSearch"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:background="#11000000"
+            android:hint="City, State"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            android:inputType="text|textNoSuggestions" />
 
         <ImageView
             android:id="@+id/imgSearch"
             android:layout_width="30sp"
             android:layout_height="30sp"
-            android:layout_margin="14dp"
+            android:layout_margin="5dp"
             android:src="@drawable/icon_search" />
-        <com.rengwuxian.materialedittext.MaterialEditText
-            android:background="@drawable/radius"
-            android:id="@+id/edittextSearch"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:hint="City, State"
-            android:textColor="@android:color/black"
-            android:textColorHighlight="@android:color/white"
-            app:met_baseColor="@android:color/black"
-            app:met_floatingLabel="highlight"
-            app:met_primaryColor="@android:color/white"
-            app:met_singleLineEllipsis="true" />
-
     </LinearLayout>
 
     <TextView
         android:id="@+id/textviewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
         android:text="City: "
         android:textSize="20sp" />
 
@@ -74,7 +78,7 @@
         android:id="@+id/textviewCountry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="2dp"
         android:text="Counrtry: "
         android:textSize="20sp" />
@@ -119,8 +123,8 @@
             android:layout_weight="1"
             android:drawableTop="@drawable/humidity"
             android:gravity="center"
-            android:textColor="#fff"
             android:text="Humidity"
+            android:textColor="#fff"
             android:textSize="20sp" />
 
         <TextView
@@ -161,7 +165,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/btn_login"
         android:text="The following days"
